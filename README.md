@@ -2,7 +2,7 @@ App for hipstafying images from urls.
 If output is not mapped only saves transformed images inside the container.
 
 Usage:
-docker run hipstafy <imageurl>
+docker run hipstafy IMAGEURL
 
 As all the hipstafied images are found in the containers /hipstafy/output/ directory you can easily map them to your 'local' computer by using docker option -v 
 for example

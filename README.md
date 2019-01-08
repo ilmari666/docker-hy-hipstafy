@@ -8,3 +8,5 @@ As all the hipstafied images are found in the containers /hipstafy/output/ direc
 for example
 'docker run -v $(pwd):/hipstafy/output hipstafy sokeri.com/sokeri.gif'
 will create hipstafied sokeri.gif in to your working directory.
+
+You can also run the script locally as 'hipstafy.sh IMGURL' which will produce an output dir locally with the hipstafied image.
